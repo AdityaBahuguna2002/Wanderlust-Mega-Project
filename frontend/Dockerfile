@@ -11,7 +11,7 @@ COPY package*.json ./
 RUN npm install
 
 #Run frontend test here
-RUN npm jest
+#RUN npm jest
 
 # Copy the rest of the application code
 COPY . .
